@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#E6F8F8F8"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/cake_bakers"
+                android:textStyle="bold"
+                android:textColor="@color/purple_200"
+                android:textSize="22sp" />
+
+
+
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/item_recycler_view"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               tools:listitem="@layout/sample_item"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

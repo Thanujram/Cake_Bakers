@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">THA_APP_184172H</string>
+    <string name="admin_view">Admin View</string>
+    <string name="editable_view">Editable View</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="item_price">Item Price</string>
+    <string name="default_price">Rs 55.00</string>
+    <string name="edit">Edit</string>
+    <string name="cake_bakers">Cake Bakers</string>
+    <string name="view">View</string>
+</resources>
